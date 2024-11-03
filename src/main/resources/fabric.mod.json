@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "cannon",
+  "version": "${version}",
+  "name": "Cannon",
+  "description": "Better TNT items and mechanics",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/cannon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.siverek.cannon.client.CannonClient"
+    ],
+    "main": [
+      "org.siverek.cannon.Cannon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
